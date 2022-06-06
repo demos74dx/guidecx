@@ -13,4 +13,4 @@ Setup:
 Cypress:
 1. Open Cypress: `npx cypress open`
 2. Run Cypress and report to dashboard: `npx cypress run --record --key 83f05b9c-7baf-43da-af7a-131b8b49ef3c`
-
+3. Monitor the dashboard here: https://dashboard.cypress.io/projects/zueq92/runs
