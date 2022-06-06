@@ -1,0 +1,26 @@
+{
+  "valid": {
+    "email": "demos74dx@gmail.com",
+    "password": "jFhyKHM4qJ4EMhg"
+  },
+  "invalidEmail": {
+    "email": "notvalid@gmail.com",
+    "password": "jFhyKHM4qJ4EMhg"
+  },
+  "invalidPassword": {
+    "email": "demos74dx@gmail.com",
+    "password": "notvalid"
+  },
+  "incompleteEmail": {
+    "email": "incomplete",
+    "password": "jFhyKHM4qJ4EMhg"
+  },
+  "missingEmail": {
+    "email": "",
+    "password": "jFhyKHM4qJ4EMhg"
+  },
+  "missingPassword": {
+    "email": "demos74dx@gmail.com",
+    "password": ""
+  }
+}
