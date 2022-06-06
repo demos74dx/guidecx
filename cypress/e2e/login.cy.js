@@ -1,5 +1,5 @@
 const loginUsers = require('../fixtures/login-users')
-const {login, checkFailedLoginToast, checkFailedLogin, checkIncompleteLogin, loginWithUser} = require("../pages/login-page");
+const {checkFailedLoginToast, checkIncompleteLogin, loginWithUser} = require("../pages/login-page");
 const {checkIsProjectsPageLoaded} = require("../pages/projects-page");
 
 describe('login', () => {

@@ -1,0 +1,27 @@
+{
+  "valid": {
+    "email": "test@test.com",
+    "first": "first",
+    "last": "last"
+  },
+  "incompleteEmail": {
+    "email": "test",
+    "first": "first",
+    "last": "last"
+  },
+  "missingEmail": {
+    "email": "",
+    "first": "first",
+    "last": "last"
+  },
+  "missingFirst": {
+    "email": "test@test.com",
+    "first": "",
+    "last": "last"
+  },
+  "missingLast": {
+    "email": "test@test.com",
+    "first": "first",
+    "last": ""
+  }
+}
