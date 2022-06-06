@@ -5,6 +5,10 @@ const loginPage = {
     invalidToast: `#client-snackbar`,
 }
 
+export const loginWithUser = (user) => {
+    login(user.email, user.password)
+}
+
 export const login = (email: string, password: string) => {
     cy.visit(Cypress.env('login_url')) //stored as env var in cypress.config.js
     if(email) {
